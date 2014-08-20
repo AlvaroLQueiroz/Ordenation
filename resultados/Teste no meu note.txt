@@ -1,0 +1,582 @@
+++++++++++Teste de funcionamento dos metodos++++++++++
+
+
+#####Testando bubble sort.####################
+Conjunto crescente:
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 
+Conjunto ordenado:
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 
+
+Conjunto decrescente:
+20 19 18 17 16 15 14 13 12 11 10 9 8 7 6 5 4 3 2 1 
+Conjunto ordenado:
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 
+
+Conjunto aleatorio:
+278167800 485738099 318158520 25688518 220733694 5972881 296046840 447843843 12168440 426355330 201114303 136598871 26859962 488597513 104780468 85097354 341510474 371459111 240131414 15430956 
+Conjunto ordenado:
+5972881 12168440 15430956 25688518 26859962 85097354 104780468 136598871 201114303 220733694 240131414 278167800 296046840 318158520 341510474 371459111 426355330 447843843 485738099 488597513 
+################################################
+
+
+#####Testando bubble sort melhorado.############
+Conjunto crescente:
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 
+Conjunto ordenado:
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 
+
+Conjunto decrescente:
+20 19 18 17 16 15 14 13 12 11 10 9 8 7 6 5 4 3 2 1 
+Conjunto ordenado:
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 
+
+Conjunto aleatorio:
+278167800 485738099 318158520 25688518 220733694 5972881 296046840 447843843 12168440 426355330 201114303 136598871 26859962 488597513 104780468 85097354 341510474 371459111 240131414 15430956 
+Conjunto ordenado:
+5972881 12168440 15430956 25688518 26859962 85097354 104780468 136598871 201114303 220733694 240131414 278167800 296046840 318158520 341510474 371459111 426355330 447843843 485738099 488597513 
+################################################
+
+
+#####Testando Insertion sort.#####
+Conjunto crescente:
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 
+Conjunto ordenado:
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 
+
+Conjunto decrescente:
+20 19 18 17 16 15 14 13 12 11 10 9 8 7 6 5 4 3 2 1 
+Conjunto ordenado:
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 
+
+Conjunto aleatorio:
+278167800 485738099 318158520 25688518 220733694 5972881 296046840 447843843 12168440 426355330 201114303 136598871 26859962 488597513 104780468 85097354 341510474 371459111 240131414 15430956 
+Conjunto ordenado:
+5972881 12168440 15430956 25688518 26859962 85097354 104780468 136598871 201114303 220733694 240131414 278167800 296046840 318158520 341510474 371459111 426355330 447843843 485738099 488597513 
+################################################
+
+
+#####Testando Merge sort.#####
+Conjunto crescente:
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 
+Conjunto ordenado:
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 
+
+Conjunto decrescente:
+20 19 18 17 16 15 14 13 12 11 10 9 8 7 6 5 4 3 2 1 
+Conjunto ordenado:
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 
+
+Conjunto aleatorio:
+278167800 485738099 318158520 25688518 220733694 5972881 296046840 447843843 12168440 426355330 201114303 136598871 26859962 488597513 104780468 85097354 341510474 371459111 240131414 15430956 
+Conjunto ordenado:
+5972881 12168440 15430956 25688518 26859962 85097354 104780468 136598871 201114303 220733694 240131414 278167800 296046840 318158520 341510474 371459111 426355330 447843843 485738099 488597513 
+################################################
+
+
+#####Testando quick sort primeiro elemento.#####
+Conjunto crescente:
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 
+Conjunto ordenado:
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 
+
+Conjunto decrescente:
+20 19 18 17 16 15 14 13 12 11 10 9 8 7 6 5 4 3 2 1 
+Conjunto ordenado:
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 
+
+Conjunto aleatorio:
+278167800 485738099 318158520 25688518 220733694 5972881 296046840 447843843 12168440 426355330 201114303 136598871 26859962 488597513 104780468 85097354 341510474 371459111 240131414 15430956 
+Conjunto ordenado:
+5972881 12168440 15430956 25688518 26859962 85097354 104780468 136598871 201114303 220733694 240131414 278167800 296046840 318158520 341510474 371459111 426355330 447843843 485738099 488597513 
+################################################
+
+
+#####Testando quick sort aleatorio.#############
+Conjunto crescente:
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 
+Conjunto ordenado:
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 
+
+Conjunto decrescente:
+20 19 18 17 16 15 14 13 12 11 10 9 8 7 6 5 4 3 2 1 
+Conjunto ordenado:
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 
+
+Conjunto aleatorio:
+278167800 485738099 318158520 25688518 220733694 5972881 296046840 447843843 12168440 426355330 201114303 136598871 26859962 488597513 104780468 85097354 341510474 371459111 240131414 15430956 
+Conjunto ordenado:
+5972881 12168440 15430956 25688518 26859962 85097354 104780468 136598871 201114303 220733694 240131414 278167800 296046840 318158520 341510474 371459111 426355330 447843843 485738099 488597513 
+################################################
+
+
+#####Testando quick sort mediano.###############
+Conjunto crescente:
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 
+Conjunto ordenado:
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 
+
+Conjunto decrescente:
+20 19 18 17 16 15 14 13 12 11 10 9 8 7 6 5 4 3 2 1 
+Conjunto ordenado:
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 
+
+Conjunto aleatorio:
+278167800 485738099 318158520 25688518 220733694 5972881 296046840 447843843 12168440 426355330 201114303 136598871 26859962 488597513 104780468 85097354 341510474 371459111 240131414 15430956 
+Conjunto ordenado:
+5972881 12168440 15430956 25688518 26859962 85097354 104780468 136598871 201114303 220733694 240131414 278167800 296046840 318158520 341510474 371459111 426355330 447843843 485738099 488597513 
+################################################
+
+
+######Testando Heap sort.#######################
+Conjunto crescente:
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 
+Conjunto ordenado:
+1 2 3 4 5 6 7 8 9 10 11 13 12 15 14 17 19 18 16 20 
+
+Conjunto decrescente:
+20 19 18 17 16 15 14 13 12 11 10 9 8 7 6 5 4 3 2 1 
+Conjunto ordenado:
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 
+
+Conjunto aleatorio:
+278167800 485738099 318158520 25688518 220733694 5972881 296046840 447843843 12168440 426355330 201114303 136598871 26859962 488597513 104780468 85097354 341510474 371459111 240131414 15430956 
+Conjunto ordenado:
+5972881 12168440 15430956 25688518 26859962 85097354 104780468 136598871 201114303 220733694 240131414 278167800 296046840 318158520 341510474 371459111 426355330 447843843 485738099 488597513 
+################################################
+
+++++++++++Execuções com 10 elementos++++++++++++++++++
+
+
+#####Executando bubble sort.####################
+Conjunto crescente: 0.00000119 segundos
+Conjunto decrescente: 0.00000095 segundos
+Conjunto aleatorio: 0.00000119 segundos
+##################################################
+
+
+#####Executando bubble sort melhorado.############
+Conjunto crescente: 0.00000095 segundos
+Conjunto decrescente: 0.00000000 segundos
+Conjunto aleatorio: 0.00000095 segundos
+##################################################
+
+
+#####Executando Insertion sort.###################
+Conjunto crescente: 0.00000000 segundos
+Conjunto decrescente: 0.00000119 segundos
+Conjunto aleatorio: 0.00000095 segundos
+##################################################
+
+
+#####Executando Merge sort.#######################
+Conjunto crescente: 0.00000119 segundos
+Conjunto decrescente: 0.00000095 segundos
+Conjunto aleatorio: 0.00000191 segundos
+##################################################
+
+
+#####Executando quick sort primeiro elemento.#####
+Conjunto crescente: 0.00000095 segundos
+Conjunto decrescente: 0.00000119 segundos
+Conjunto aleatorio: 0.00000000 segundos
+##################################################
+
+
+#####Executando quick sort aleatorio.#############
+Conjunto crescente: 0.00000906 segundos
+Conjunto decrescente: 0.00000906 segundos
+Conjunto aleatorio: 0.00000811 segundos
+##################################################
+
+
+#####Executando quick sort mediano.###############
+Conjunto crescente: 0.00000000 segundos
+Conjunto decrescente: 0.00000095 segundos
+Conjunto aleatorio: 0.00000000 segundos
+##################################################
+
+
+######Executando Heap sort.#######################
+Conjunto crescente: 0.00000286 segundos
+Conjunto decrescente: 0.00000095 segundos
+Conjunto aleatorio: 0.00000000 segundos
+##################################################
+
+++++++++++Execuções com 100 elementos+++++++++++++++++
+
+
+#####Executando bubble sort.####################
+Conjunto crescente: 0.00003910 segundos
+Conjunto decrescente: 0.00005889 segundos
+Conjunto aleatorio: 0.00005817 segundos
+##################################################
+
+
+#####Executando bubble sort melhorado.############
+Conjunto crescente: 0.00000095 segundos
+Conjunto decrescente: 0.00004292 segundos
+Conjunto aleatorio: 0.00003910 segundos
+##################################################
+
+
+#####Executando Insertion sort.###################
+Conjunto crescente: 0.00000119 segundos
+Conjunto decrescente: 0.00002503 segundos
+Conjunto aleatorio: 0.00001192 segundos
+##################################################
+
+
+#####Executando Merge sort.#######################
+Conjunto crescente: 0.00001311 segundos
+Conjunto decrescente: 0.00001192 segundos
+Conjunto aleatorio: 0.00001597 segundos
+##################################################
+
+
+#####Executando quick sort primeiro elemento.#####
+Conjunto crescente: 0.00002003 segundos
+Conjunto decrescente: 0.00001907 segundos
+Conjunto aleatorio: 0.00000787 segundos
+##################################################
+
+
+#####Executando quick sort aleatorio.#############
+Conjunto crescente: 0.00008392 segundos
+Conjunto decrescente: 0.00007606 segundos
+Conjunto aleatorio: 0.00008893 segundos
+##################################################
+
+
+#####Executando quick sort mediano.###############
+Conjunto crescente: 0.00000381 segundos
+Conjunto decrescente: 0.00000310 segundos
+Conjunto aleatorio: 0.00000811 segundos
+##################################################
+
+
+######Executando Heap sort.#######################
+Conjunto crescente: 0.00001001 segundos
+Conjunto decrescente: 0.00000906 segundos
+Conjunto aleatorio: 0.00001097 segundos
+##################################################
+
+++++++++++Execuções com 1.000 elementos+++++++++++++++
+
+
+#####Executando bubble sort.####################
+Conjunto crescente: 0.00395203 segundos
+Conjunto decrescente: 0.00579691 segundos
+Conjunto aleatorio: 0.00653911 segundos
+##################################################
+
+
+#####Executando bubble sort melhorado.############
+Conjunto crescente: 0.00000405 segundos
+Conjunto decrescente: 0.00438809 segundos
+Conjunto aleatorio: 0.00490117 segundos
+##################################################
+
+
+#####Executando Insertion sort.###################
+Conjunto crescente: 0.00000787 segundos
+Conjunto decrescente: 0.00238013 segundos
+Conjunto aleatorio: 0.00130701 segundos
+##################################################
+
+
+#####Executando Merge sort.#######################
+Conjunto crescente: 0.00014806 segundos
+Conjunto decrescente: 0.00014305 segundos
+Conjunto aleatorio: 0.00020981 segundos
+##################################################
+
+
+#####Executando quick sort primeiro elemento.#####
+Conjunto crescente: 0.00148416 segundos
+Conjunto decrescente: 0.00148106 segundos
+Conjunto aleatorio: 0.00010610 segundos
+##################################################
+
+
+#####Executando quick sort aleatorio.#############
+Conjunto crescente: 0.00084901 segundos
+Conjunto decrescente: 0.00081992 segundos
+Conjunto aleatorio: 0.00091195 segundos
+##################################################
+
+
+#####Executando quick sort mediano.###############
+Conjunto crescente: 0.00004601 segundos
+Conjunto decrescente: 0.00004697 segundos
+Conjunto aleatorio: 0.00010800 segundos
+##################################################
+
+
+######Executando Heap sort.#######################
+Conjunto crescente: 0.00013399 segundos
+Conjunto decrescente: 0.00012493 segundos
+Conjunto aleatorio: 0.00015116 segundos
+##################################################
+
+++++++++++Execuções com 10.000 elementos++++++++++++++
+
+
+#####Executando bubble sort.####################
+Conjunto crescente: 0.39669991 segundos
+Conjunto decrescente: 0.79127383 segundos
+Conjunto aleatorio: 0.64933586 segundos
+##################################################
+
+
+#####Executando bubble sort melhorado.############
+Conjunto crescente: 0.00004101 segundos
+Conjunto decrescente: 0.43539786 segundos
+Conjunto aleatorio: 0.46340108 segundos
+##################################################
+
+
+#####Executando Insertion sort.###################
+Conjunto crescente: 0.00008106 segundos
+Conjunto decrescente: 0.23878312 segundos
+Conjunto aleatorio: 0.11775208 segundos
+##################################################
+
+
+#####Executando Merge sort.#######################
+Conjunto crescente: 0.00173211 segundos
+Conjunto decrescente: 0.00172305 segundos
+Conjunto aleatorio: 0.00252104 segundos
+##################################################
+
+
+#####Executando quick sort primeiro elemento.#####
+Conjunto crescente: 0.16070080 segundos
+Conjunto decrescente: 0.14430594 segundos
+Conjunto aleatorio: 0.00136995 segundos
+##################################################
+
+
+#####Executando quick sort aleatorio.#############
+Conjunto crescente: 0.00874805 segundos
+Conjunto decrescente: 0.00844789 segundos
+Conjunto aleatorio: 0.01374102 segundos
+##################################################
+
+
+#####Executando quick sort mediano.###############
+Conjunto crescente: 0.00070691 segundos
+Conjunto decrescente: 0.00071621 segundos
+Conjunto aleatorio: 0.00178885 segundos
+##################################################
+
+
+######Executando Heap sort.#######################
+Conjunto crescente: 0.00215316 segundos
+Conjunto decrescente: 0.00208998 segundos
+Conjunto aleatorio: 0.00253296 segundos
+##################################################
+
+++++++++++Execuções com 100.000 elementos+++++++++++++
+
+
+#####Executando bubble sort.####################
+Conjunto crescente: 42.80031991 segundos
+Conjunto decrescente: 110.22319603 segundos
+Conjunto aleatorio: 145.63377810 segundos
+##################################################
+
+
+#####Executando bubble sort melhorado.############
+Conjunto crescente: 0.00083399 segundos
+Conjunto decrescente: 49.09148598 segundos
+Conjunto aleatorio: 46.35464191 segundos
+##################################################
+
+
+#####Executando Insertion sort.###################
+Conjunto crescente: 0.00079918 segundos
+Conjunto decrescente: 23.79414988 segundos
+Conjunto aleatorio: 11.88415480 segundos
+##################################################
+
+
+#####Executando Merge sort.#######################
+Conjunto crescente: 0.02039385 segundos
+Conjunto decrescente: 0.01979303 segundos
+Conjunto aleatorio: 0.03073406 segundos
+##################################################
+
+
+#####Executando quick sort primeiro elemento.#####
+Conjunto crescente: 14.37715387 segundos
+Conjunto decrescente: 14.34995103 segundos
+Conjunto aleatorio: 0.01662493 segundos
+##################################################
+
+
+#####Executando quick sort aleatorio.#############
+Conjunto crescente: 0.08506298 segundos
+Conjunto decrescente: 0.08778596 segundos
+Conjunto aleatorio: 0.09652996 segundos
+##################################################
+
+
+#####Executando quick sort mediano.###############
+Conjunto crescente: 0.00585294 segundos
+Conjunto decrescente: 0.00613499 segundos
+Conjunto aleatorio: 0.01648211 segundos
+##################################################
+
+
+######Executando Heap sort.#######################
+Conjunto crescente: 0.01993895 segundos
+Conjunto decrescente: 0.01970887 segundos
+Conjunto aleatorio: 0.02587581 segundos
+##################################################
+
+++++++++++Execuções com 500.000 elementos+++++++++++++
+
+
+#####Executando bubble sort.####################
+Conjunto crescente: 991.97889590 segundos
+Conjunto decrescente: 1466.35216999 segundos
+Conjunto aleatorio: 1610.29589105 segundos
+##################################################
+
+
+#####Executando bubble sort melhorado.############
+Conjunto crescente: 0.00204611 segundos
+Conjunto decrescente: 1090.93008900 segundos
+Conjunto aleatorio: 1161.53669810 segundos
+##################################################
+
+
+#####Executando Insertion sort.###################
+Conjunto crescente: 0.00405788 segundos
+Conjunto decrescente: 595.08669901 segundos
+Conjunto aleatorio: 297.54175496 segundos
+##################################################
+
+
+#####Executando Merge sort.#######################
+Conjunto crescente: 0.11118412 segundos
+Conjunto decrescente: 0.10938716 segundos
+Conjunto aleatorio: 0.16534495 segundos
+##################################################
+
+
+#####Executando quick sort primeiro elemento.#####
+Conjunto crescente: 360.31391382 segundos
+Conjunto decrescente: 359.90422916 segundos
+Conjunto aleatorio: 0.09463096 segundos
+##################################################
+
+
+#####Executando quick sort aleatorio.#############
+Conjunto crescente: 0.45176601 segundos
+Conjunto decrescente: 0.36998796 segundos
+Conjunto aleatorio: 0.49385190 segundos
+##################################################
+
+
+#####Executando quick sort mediano.###############
+Conjunto crescente: 0.03511786 segundos
+Conjunto decrescente: 0.03643298 segundos
+Conjunto aleatorio: 0.09265804 segundos
+##################################################
+
+
+######Executando Heap sort.#######################
+Conjunto crescente: 0.11144400 segundos
+Conjunto decrescente: 0.11244607 segundos
+Conjunto aleatorio: 0.15921807 segundos
+##################################################
+
+++++++++++Execuções com 1.000.000 elementos+++++++++++
+
+#####Executando quick sort aleatorio.#############
+Conjunto crescente: 0.92151499 segundos
+Conjunto decrescente: 0.93343997 segundos
+Conjunto aleatorio: 1.00169301 segundos
+##################################################
+
+
+#####Executando quick sort mediano.###############
+Conjunto crescente: 0.07289505 segundos
+Conjunto decrescente: 0.07844090 segundos
+Conjunto aleatorio: 0.19450283 segundos
+##################################################
+
+
+######Executando Heap sort.#######################
+Conjunto crescente: 0.23376703 segundos
+Conjunto decrescente: 0.23913217 segundos
+Conjunto aleatorio: 0.35930681 segundos
+##################################################
+
+++++++++++Execuções com 10.000.000 elementos++++++++++
+
+#####Executando quick sort aleatorio.#############
+Conjunto crescente: 8.84775305 segundos
+Conjunto decrescente: 8.43978095 segundos
+Conjunto aleatorio: 10.27181101 segundos
+##################################################
+
+
+#####Executando quick sort mediano.###############
+Conjunto crescente: 0.80715418 segundos
+Conjunto decrescente: 0.83400488 segundos
+Conjunto aleatorio: 2.24372697 segundos
+##################################################
+
+
+######Executando Heap sort.#######################
+Conjunto crescente: 2.73490119 segundos
+Conjunto decrescente: 2.86354995 segundos
+Conjunto aleatorio: 6.20818996 segundos
+##################################################
+
+++++++++++Execuções com 100.000.000 elementos+++++++++
+
+#####Executando quick sort aleatorio.#############
+Conjunto crescente: 86.86846519 segundos
+Conjunto decrescente: 88.07105184 segundos
+Conjunto aleatorio: 105.05320787 segundos
+##################################################
+
+
+#####Executando quick sort mediano.###############
+Conjunto crescente: 8.75673509 segundos
+Conjunto decrescente: 9.05120492 segundos
+Conjunto aleatorio: 25.41247511 segundos
+##################################################
+
+
+######Executando Heap sort.#######################
+Conjunto crescente: 31.46767902 segundos
+Conjunto decrescente: 33.46352887 segundos
+Conjunto aleatorio: 95.92862916 segundos
+##################################################
+
+++++++++++Execuções com 500.000.000 elementos+++++++++
+
+#####Executando quick sort aleatorio.#############
+Conjunto crescente: 445.71107221 segundos
+Conjunto decrescente: 445.62851286 segundos
+Conjunto aleatorio: 520.03506613 segundos
+##################################################
+
+
+#####Executando quick sort mediano.###############
+Conjunto crescente: 49.71054602 segundos
+Conjunto decrescente: 51.12804890 segundos
+Conjunto aleatorio: 137.74014783 segundos
+##################################################
+
+
+######Executando Heap sort.#######################
+Conjunto crescente: 171.35429811 segundos
+Conjunto decrescente: 186.59782887 segundos
+Conjunto aleatorio: 625.17878699 segundos
+##################################################
+

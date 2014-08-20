@@ -1,0 +1,81 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <sys/resource.h>
+#include "../include/testing.h"
+#include "../include/aleatory.h"
+#include "../include/execute.h"
+#include "../include/print.h"
+
+
+int main(){
+
+	FILE *file;
+	
+	const rlim_t kStackSize = 2000 * 1024 * 1024; 
+	struct rlimit rl;
+	int result;
+	result = getrlimit(RLIMIT_STACK, &rl);
+	if (result == 0) {
+		if (rl.rlim_cur < kStackSize) {
+			rl.rlim_cur = kStackSize;
+			result = setrlimit(RLIMIT_STACK, &rl);
+			if (result != 0) {
+				fprintf(stderr, "setrlimit returned result = %d\n", result);
+			}
+		}
+	}
+
+	file = fopen("log.txt", "w+");
+	if(file)
+
+	generate_numbers(500000000);
+
+	printf("Testando Funcionamento ");
+	printstr("++++++++++Teste de funcionamento dos metodos++++++++++\n\n");
+	testing(20);
+
+	printf("\nTestantando com 10 elementos ");
+	printstr("++++++++++Execuções com 10 elementos++++++++++++++++++\n\n");
+	execute(10, 1);
+
+	printf("\nTestantando com 100 elementos ");
+	printstr("++++++++++Execuções com 100 elementos+++++++++++++++++\n\n");
+	execute(100, 1);
+
+	printf("\nTestantando com 1.000 elementos ");
+	printstr("++++++++++Execuções com 1.000 elementos+++++++++++++++\n\n");
+	execute(1000, 1);
+
+	printf("\nTestantando com 10.000 elementos ");
+	printstr("++++++++++Execuções com 10.000 elementos++++++++++++++\n\n");
+	execute(10000, 1);
+
+	printf("\nTestantando com 100.000 elementos ");
+	printstr("++++++++++Execuções com 100.000 elementos+++++++++++++\n\n");
+	execute(100000, 1);
+
+	printf("\nTestantando com 500.000 elementos ");
+	printstr("++++++++++Execuções com 500.000 elementos+++++++++++++\n\n");
+	execute(500000, 1);
+
+	printf("\nTestantando com 1.000.000 elementos ");
+	printstr("++++++++++Execuções com 1.000.000 elementos+++++++++++\n\n");
+	execute(1000000, 0);
+
+	printf("\nTestantando com 10.000.000 elementos ");
+	printstr("++++++++++Execuções com 10.000.000 elementos++++++++++\n\n");
+	execute(10000000, 0);
+
+	printf("\nTestantando com 100.000.000 elementos ");
+	printstr("++++++++++Execuções com 100.000.000 elementos+++++++++\n\n");
+	execute(100000000, 0);
+
+	printf("\nTestantando com 500.000.000 elementos ");
+	printstr("++++++++++Execuções com 500.000.000 elementos+++++++++\n\n");
+	execute(500000000, 0);
+
+	printf("\nTestes Completos.\n");
+
+	return 1;
+}
+

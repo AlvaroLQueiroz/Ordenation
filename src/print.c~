@@ -1,0 +1,47 @@
+#include "../include/print.h"
+#include <stdio.h>
+#include <stdlib.h>
+
+void printstr(char *str){
+
+	FILE *file;
+
+	file = fopen("log.txt", "r+");
+	if(!file){
+		file = fopen("log.txt", "w+");
+		if(!file){
+			printf("Error creating the file.dasd\n");
+			exit(0);
+		}
+	}
+
+	fseek(file, 0, SEEK_END);
+	fprintf(file, "%s", str);
+	fclose(file);	
+}
+
+void printgroup(int *group, int amount){
+
+	int counter;
+
+	FILE *file;
+
+	file = fopen("log.txt", "r+");
+	if(!file){
+		file = fopen("log.txt", "w+");
+		if(!file){
+			printf("Error creating the file.dasd\n");
+			exit(0);
+		}
+	}
+
+	fseek(file, 0, SEEK_END);
+
+	for(counter = 0; counter < amount; counter++){
+		fprintf(file, "%d ", group[counter]);
+	}
+	fprintf(file, "\n");
+
+	fclose(file);
+}
+

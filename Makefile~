@@ -1,0 +1,26 @@
+#Compilador
+CC = gcc
+
+#Variaveis de diretorios
+LIB = ./lib
+INCLUDE = ./include
+SRC = ./src
+OBJ = ./obj
+
+#Opcões de compilação
+LIBFLAGS = -lordenation
+FLAGS = -Wall -Wextra -pedantic -g
+
+limpeza: ordenacao
+	@rm /lib/*.a
+	@rm /obj/*.o
+	
+ordenacao: metodos
+	@$(CC) $(SRC)/main.c $(FLAGS) -I$(INCLUDE) -L$(LIB) $(LIBFLAGS) -o ordenation
+	
+metodos:
+	@$(CC) -c $(SRC)/*.c $(FLAGS) -I$(INCLUDE)
+	@mv *.o obj/
+	@ar -cru $(LIB)/libordenation.a $(OBJ)/*.o
+
+
